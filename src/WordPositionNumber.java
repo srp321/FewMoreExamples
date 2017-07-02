@@ -7,7 +7,7 @@ public class WordPositionNumber {
 		List<List<String>> allVals = new ArrayList<List<String>>();
 		allVals = combinationFinder("2110");
 
-/*		int count = allVals.size();
+      /*int count = allVals.size();
 		System.out.print("count: "+count);
 		for (int i = 0 ; i < allVals.size(); i++) {
 			List<String> tmpVal = allVals.get(i);
