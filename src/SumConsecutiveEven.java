@@ -2,7 +2,6 @@
 /* Save this in a file called Main.java to compile and test it */
 
 import java.util.*;
-import java.io.*;
 
 public class SumConsecutiveEven {
 	public static int processArray(ArrayList<Integer> array) {
@@ -40,5 +39,6 @@ public class SumConsecutiveEven {
 		int new_length = processArray(arrayList);
 		for (int i = 0; i < new_length; i++)
 			System.out.println(arrayList.get(i));
+		in.close();
 	}
 }

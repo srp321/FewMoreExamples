@@ -1,5 +1,4 @@
 import java.util.*;
-import java.io.*;
 
 public class FilterAndReplace {
 	public static int processArray(ArrayList<Integer> array) {
@@ -38,5 +37,6 @@ public class FilterAndReplace {
 		int new_length = processArray(arrayList);
 		for (int i = 0; i < new_length; i++)
 			System.out.println(arrayList.get(i));
+		in.close();
 	}
 }

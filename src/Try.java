@@ -19,6 +19,7 @@ interface I1 {
 class Try extends B implements I1 {
     public static void main (String argv[] ) {
         Try t = new Try();
+        t.m1();
         Integer i = new Integer(99);
         i = 10;
         System.out.println(i);
